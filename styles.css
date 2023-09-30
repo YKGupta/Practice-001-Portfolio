@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: Poppins, sans-serif;
+    background-color: #e3edf5;
+    height: 100vh;
+}
+
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    height: 12vh;
+}
+
+.logo > h2
+{
+    font-size: 1.9rem;
+    font-weight: 600;
+    color: #5472D9;
+}
+
+.links > ul
+{
+    list-style: none;
+    display: flex;
+}
+
+.links li
+{
+    margin: 0px 10px;
+    font-weight: 500;
+}
+
+.links a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.line
+{
+    margin: auto;
+    width: 0%;
+    height: 2px;
+    background-color: black;
+    transition: width 0.5s;
+}
+
+.active .line
+{
+    width: 100%;
+}
+
+li:hover .line
+{
+    width: 100%;
+}
+
+.social > i
+{
+    margin: 0px 7px; 
+    color: #4F71D0;
+    transition: all 0.2s;
+}
+
+.social > i:hover
+{
+    cursor: pointer;
+    scale: 1.2;
+}
+
+.container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 88vh;
+}
+
+.content
+{
+    width: 60%;
+    height: 100%;
+}
+
+.content
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0px 50px;
+}
+
+.content h3, .content h2, .content button{
+    font-weight: 400;
+    color: #0D2432;
+}
+
+.content h2
+{
+    color: #4A70E0;
+}
+
+.content h1
+{
+    font-size: 52px;
+    color: #0D2432;
+    font-weight: 600;
+}
+
+.content button
+{
+    width: 100px;
+    height: 40px;
+    margin: 12px 0px;
+    background-color: #4071F1;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: 1.2rem;
+    transition: all 0.2s;
+}
+
+.content button:hover
+{
+    cursor: pointer;
+    scale: 1.2;
+}
+
+.image
+{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.image > img
+{
+    max-width: 410px;
+}
