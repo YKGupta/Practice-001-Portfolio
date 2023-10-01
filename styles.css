@@ -57,7 +57,7 @@ nav
     transition: width 0.5s;
 }
 
-.active .line
+.active
 {
     width: 100%;
 }
@@ -123,6 +123,43 @@ li:hover .line
 .content button
 {
     width: 100px;
+}
+
+#AboutPage .content button
+{
+    margin: 15px 0px;
+    width: 130px;
+}
+
+#AboutPage .content h3
+{
+    margin: 10px 0px;
+    line-height: 30px;
+}
+
+#AboutPage .content h2
+{
+    margin: 15px 0px;
+}
+
+#SkillsPage .content h1
+{
+    margin: 15px 0px;
+}
+
+#SkillsPage .content h2
+{
+    color: #0D2432;
+    margin: 10px 0px;
+}
+
+#SkillsPage .content ul
+{
+    list-style: upper-roman;
+}
+
+.content button
+{
     height: 40px;
     margin: 12px 0px;
     background-color: #4071F1;
